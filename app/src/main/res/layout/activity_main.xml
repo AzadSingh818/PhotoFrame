@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pic0"
+        android:layout_width="285dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="285dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="68dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image2"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="285dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="68dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/pic3"
+        android:layout_width="285dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="68dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/pic4"
+        android:layout_width="285dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="68dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image5"
+        tools:ignore="ContentDescription" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841">
+
+        <ImageButton
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:contentDescription="TODO"
+            android:onClick="prev"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:contentDescription="DOIT"
+            android:onClick="next"
+            app:srcCompat="@android:drawable/ic_media_next"
+            tools:ignore="HardcodedText,ImageContrastCheck,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="76dp"
+        android:text="Good Shiva"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="46dp"
+        android:background="@color/material_dynamic_primary60"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Welcome to gallery"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
