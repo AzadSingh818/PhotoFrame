@@ -50,3 +50,7 @@ PhotoFrame is an 📱 Android application that allows users to select images fro
    - Connect your Android device or start an emulator.
    - Click on "Run" > "Run 'app'" to install and launch the app.
 
+   ---
+
+   
+
