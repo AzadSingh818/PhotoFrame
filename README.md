@@ -15,8 +15,10 @@ PhotoFrame is an 📱 Android application that allows users to select images fro
 
 ## 📸 Screenshots  
 
-<img src="https://github.com/AzadSingh818/PhotoFrame/blob/master/app/src/main/res/drawable/Scanned_20250116-1416-01.jpg" alt="App Demo" width="600" height="400">
-
+<p align="center">
+  <img src="https://github.com/AzadSingh818/PhotoFrame/blob/master/app/src/main/res/drawable/Scanned_20250116-1416-01.jpg" alt="App Demo" width="600" height="400">
+  <img src="images/image2.png" alt="Image 2" width="300">
+</p>
 
 ---
 
