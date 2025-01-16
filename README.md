@@ -40,3 +40,13 @@ PhotoFrame is an 📱 Android application that allows users to select images fro
    ```bash
    git clone https://github.com/AzadSingh818/PhotoFrame.git
 
+2. **Open the Project:**
+   - Launch Android Studio.
+   - Select "Open an existing project" and navigate to the cloned repository.
+3. **Build the Project:**
+   - Allow Android Studio to download necessary dependencies.
+   - Click on "Build" > "Make Project" to compile the app.
+4. **Run the Application:**
+   - Connect your Android device or start an emulator.
+   - Click on "Run" > "Run 'app'" to install and launch the app.
+
