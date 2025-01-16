@@ -1,4 +1,4 @@
-# 🌟 PhotoFrame
+# 🌟 PhotoFrame ( Simple basic - Android App)
 
 PhotoFrame is an 📱 Android application that allows users to select images from their device's gallery and display them within customizable photo frames.                                                       This app enhances the presentation of your favorite photos, making it easy to showcase memories in a personalized way.  
 
