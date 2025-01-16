@@ -108,4 +108,17 @@ Name: Azad Singh
 Email: your-email@example.com
 GitHub: @AzadSingh818
 
+---
+
+### 🏆 Acknowledgments  
+
+We would like to express our gratitude to:  
+
+- **Android Developer Community** for providing valuable resources and tutorials.  
+- **Open-source Libraries** like Glide for simplifying image handling and enhancing performance.  
+- **Contributors and Testers** for their feedback and support during the development process.  
+- **Inspiration** from modern photo editing and framing applications for design and functionality ideas.  
+
+Your contributions and inspiration have been instrumental in making PhotoFrame a success! Thank you! 🙏
+
 
