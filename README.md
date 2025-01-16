@@ -51,6 +51,12 @@ PhotoFrame is an 📱 Android application that allows users to select images fro
    - Click on "Run" > "Run 'app'" to install and launch the app.
 
    ---
+   
+### 🎮 Usage
+1. **Launch the App:** Open the PhotoFrame application on your device.
+2. **Select an Image:** Tap the "Select Image" button to choose a photo from your gallery.
+3. **Customize the Frame:** Browse through available frame styles and apply your preferred one.
+4. **Save or Share:** Once satisfied, save the framed photo to your device or share it directly through social media or messaging apps.
 
    
 
