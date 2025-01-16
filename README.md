@@ -50,13 +50,62 @@ PhotoFrame is an 📱 Android application that allows users to select images fro
    - Connect your Android device or start an emulator.
    - Click on "Run" > "Run 'app'" to install and launch the app.
 
-   ---
+---
    
 ### 🎮 Usage
+
 1. **Launch the App:** Open the PhotoFrame application on your device.
 2. **Select an Image:** Tap the "Select Image" button to choose a photo from your gallery.
 3. **Customize the Frame:** Browse through available frame styles and apply your preferred one.
 4. **Save or Share:** Once satisfied, save the framed photo to your device or share it directly through social media or messaging apps.
 
-   
+---
+
+### 📂 Project Structure
+
+PhotoFrame/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/photoframe/    # Java source files
+│   │   │   ├── res/                            # XML layouts and resources
+│   │   │   ├── AndroidManifest.xml             # App configuration
+│   ├── build.gradle                            # Build configurations
+├── README.md                                   # Project documentation
+└── LICENSE                                     # License information
+
+---
+
+### 🤝 Contributing
+
+**Contributions are welcome! To contribute:**
+
+1. **Fork the Repository:** 🍴 Click on the "Fork" button at the top right of this page.
+2. **Create a Branch:** 🌿 Create a new branch for your feature or bugfix.
+   ```bash
+   git checkout -b feature-name
+3. **Make Changes:** 🛠️ Implement your feature or fix.
+4. **Commit Changes:**
+   ```bash
+   git commit -m "Description of feature or fix"
+5. **Push to Branch:**
+   ``bash
+   git push origin feature-name``
+6. **Submit a Pull Request:** 🔄 Navigate to the original repository and click on "New Pull Request".
+
+---
+
+### 📜 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+### 📧 Contact
+
+**For any questions or suggestions, please contact:**
+
+Name: Azad Singh
+Email: your-email@example.com
+GitHub: @AzadSingh818
+
 
